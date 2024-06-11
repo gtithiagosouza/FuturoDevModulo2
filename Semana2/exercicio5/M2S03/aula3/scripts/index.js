@@ -62,6 +62,6 @@ buttonElemento.addEventListener('click', () => {
         inputElemento.value = ""
 
     } else {
-        alert('Informe um valor')
+         document.getElementById('Adicione').innerHTML = "<h1> Adicione um produto</h1>"
     }
 })
