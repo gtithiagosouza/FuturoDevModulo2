@@ -1,0 +1,84 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fundo da página */
+body {
+  background-color: #f0f8ff; /* Um leve tom de azul */
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #005f99; /* Azul escuro */
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Estilo principal */
+main {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+main h1, main h2 {
+  color: #005f99; /* Azul escuro */
+  margin-bottom: 15px;
+}
+
+main img {
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+}
+
+main p {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+main ul {
+  margin: 20px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+main ul li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+main ul li ul li {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
