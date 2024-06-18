@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%; /* Garante que o body e html ocupem toda a altura da janela */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; /* Garante que a .container ocupe toda a altura da janela */
+  background-color: black;
+  background-image: url('/Semana4/exercicio1/image/background.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%; /* Centraliza a imagem de fundo */
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0; /* Remover o padding anterior que pode estar causando problemas */
+  justify-content: space-around; /* Espaça os itens igualmente */
+  align-items: center; /* Alinha os itens verticalmente */
+  width: 100%; /* Ocupa toda a largura disponível */
+  }
+
+ul li {
+  cursor: pointer;
+  padding: 1em; /* Espaçamento interno para os itens do menu */
+}
+
+ul li:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Efeito de hover com fundo semi-transparente */
+}
+
+.info_serie {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin-top: 20px; /* Adicionado um espaço entre o menu e o conteúdo */
+}
+
+.titulo {
+  font-size: 18px;
+}
+
+.genero {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;    
+}
+
+.episodios {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.card-episodio {
+  width: 230px;
+  height: 135px;
+  background-color: #E5E5E5;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.card-episodio1 {
+  width: 230px;
+  height: 135px;
+  background-color: #E5E5E5;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+
+.m-t-14 {
+  margin-top: 14px;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-b-28 {
+  margin-bottom: 28px;
+}
+
+.m-t-56 {
+  margin-top: 56px;
+}
+
+.poster {
+  width: 392px;
+}
+
+.ph-30 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.gap-150 {
+  gap: 150px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.social {
+  width: 30px;
+  height: 160px;
+  position: absolute;
+  background-color: white;
+  right: 220px; /* Ajuste a distância do lado direito conforme necessário */
+  top: 50%; /* Coloca o topo do elemento no centro vertical */
+  transform: translateY(-50%); /* Move o elemento 50% da sua própria altura para cima, para centralizar verticalmente */
+}
