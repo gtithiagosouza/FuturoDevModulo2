@@ -1,0 +1,124 @@
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg {
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  max-width: 659px;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 88px;
+}
+
+.header ul {
+  display: flex;
+  font: 400 0.875rem "Inter";
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  gap: 88px;
+ }
+
+
+ a {
+  text-decoration: none;
+  color: inherit
+ }
+
+ h1 {
+    color: #ffffff;
+ }
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 6fr 4fr auto;
+  color: #ffffff;
+  max-width: 1460px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  align-items: end;
+  gap: 80px;
+}
+
+.descricao h1 {
+  font: 600 2.25rem "Inter";
+}
+
+.descricao p {
+  font: 300 1rem "Inter";
+}
+
+.descricao span {
+  color: #e50914;
+}
+
+.temporada {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-items: start;
+  padding-top: 56px;
+}
+
+.temporada p {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 0px;
+  margin: 0px;
+}
+
+.setas {
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 157px;
+}
+
+.episodios {
+  display: flex;
+  grid-column: span 2;
+  margin-top: 20px;
+}
+
+.redes-sociais {
+  display: grid;
+}
+
+.redes-sociais {
+  display: grid;
+  grid-template-rows: 3;
+  gap: 36px;
+  margin-bottom: 221px;
+}
+
+.redes-sociais img {
+  display: inline;
+}
+
+.informacoes {
+  display: flex;
+  color: #ffffff;
+  font: 300 0.875rem "Inter";
+  align-items: center;
+  gap: 20px;
+  margin-top: 80px;
+  justify-content: end;
+  margin-right: 50px;
+}
+
+.informacoes h2 {
+  color: #ffffff;
+  font: 300 0.875rem "Inter";
+}
